@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Helvetica;
+}
+
+/* Header */
+.hero {
+  background: #996633;
+  padding-top: 100px;
+}
+
+.heading {
+  position: relative;
+  overflow: auto;
+}
+
+h1 {
+  color: white;
+  font-size: 6em;
+  font-family: Helvetica;
+}
+
+.tagline {
+  color: white;
+  font-size: 3em;
+}
+
+.see-cookies {
+  border: 2px solid white;
+  padding: 2px 10px 5px 10px;
+  font-size: 3.5em;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.see-cookies:hover {
+  color: #996633;
+  background: white;
+  text-decoration: none;
+}
+
+
+.review {
+  font-size: 20px;
+}
+
+.cookies-bg {
+  background-image: url(images/cookies-bg.jpeg);
+  background-position: left bottom;
+  height: 350px;
+  background-attachment: fixed;
+}
+
+
+.product {
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.product img {
+  border: 1px solid lightgray;
+  padding: 5px;
+}
+
+.product img:hover {
+  border: 1px solid #bc2e00;
+}
+
+.clear {
+  clear: both;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #bc2e00;
+  border-bottom: 2px solid #bc2e00;
+  padding-bottom: .5em;
+  padding-top: 1.5em;
+}
+
+.quote {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.quote img {
+  border-radius: 50%;
+}
+
+.spacer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.add-new {
+  width: 100%;
+  background: rgba(255,255,255, 0.6);
+  text-align: center;
+  font-size: 80px;
+  padding: 20px 20px;
+  border-radius: 20px;
+}
+
+.add-new div {
+  margin-bottom: 10px;
+}
+
+.add-new div a {
+  color: white;
+}
+
+.add-new div a:hover {
+  /*text-decoration: none;*/
+}
+
+.form-container {
+  background: #3b0e00;
+  color: white;
+  font-size: 1.5em;
+  padding: 40px;
+}
+
+.form-heading {
+  color: white;
+  font-weight: normal;
+  border-color: white;
+  padding-top: 0;
+  margin-bottom: 1em;
+}
+
+.center img {
+  margin: 0 auto;
+}
